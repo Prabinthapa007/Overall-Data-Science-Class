@@ -1,2 +1,2 @@
-# Financial-Analysis
-It includes Financial analysis of a certain company
+# Datahead
+It includes python basics to machine learning to deep learning record and practice files.
