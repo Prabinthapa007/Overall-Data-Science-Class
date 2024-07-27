@@ -137,7 +137,7 @@ LEFT JOIN
 LEFT JOIN
     queues AS q ON ca.queue_id = q.id
 LEFT JOIN
-    jobs AS j ON q.id = j.queue -- Assuming jobs table links to queues by the queue ID
+    jobs AS j ON q.id = j.queue -- I am Assuming jobs table links to queues by the queue ID
 WHERE
     DATE(ca.called_date) = '2024-02-14'
 GROUP BY
